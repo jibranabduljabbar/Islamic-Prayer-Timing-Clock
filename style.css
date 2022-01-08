@@ -1,0 +1,72 @@
+.card, .list-group{
+    margin: 20% auto;
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+  
+  }
+  .list-group-item{
+    text-transform: capitalize;
+    /* list-style:none; */
+    font-weight: bold;
+    /* list-style: square; */
+}
+  .active{
+    text-align: center;
+      
+  }
+
+.center{
+margin-left: 25%;
+/* margin-right: 50%; */
+}
+
+  #button{
+      background-color: black;
+      color: white;
+      border-radius: 20px;
+      padding: 10px;
+      font-family: 'Merriweather', serif;
+      font-weight: bold;
+      font-size: 10px;
+      width: 150px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+
+body{
+  background-color: black;
+}
+
+/* .badge-pill{
+    background-color: black;
+} */
+
+.list-group{
+    background-color: white;
+    height: 790px;
+    border-radius: 50px;
+}
+
+li{
+    background-color: black;
+    color: white;
+    /* padding: 200px; */
+    font-family: 'Merriweather', serif;
+    height: 30px;
+    list-style: none;
+    border-radius: 50px;
+    margin: 10px;
+    width: 210px;
+    text-align: center;
+}
+
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(136, 136, 136); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
